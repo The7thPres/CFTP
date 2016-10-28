@@ -1,0 +1,6 @@
+verilog xil_defaultlib "../../../../CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider_clk_wiz.v" --include "../../../ipstatic"
+verilog xil_defaultlib "../../../../CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider.v" --include "../../../ipstatic"
+
+verilog xil_defaultlib "glbl.v"
+
+nosort
