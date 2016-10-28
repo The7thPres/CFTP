@@ -1,0 +1,2 @@
+SD_Out_FIFO.v,verilog,xil_defaultlib,../../../../CFTP_Sat.srcs/sources_1/ip/SD_Out_FIFO/sim/SD_Out_FIFO.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v
