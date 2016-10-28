@@ -1,0 +1,1021 @@
+
+*** Running vivado
+    with args -log Top.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Top.tcl
+
+
+****** Vivado v2016.3 (64-bit)
+  **** SW Build 1682563 on Mon Oct 10 19:07:27 MDT 2016
+  **** IP Build 1681267 on Mon Oct 10 21:28:31 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source Top.tcl -notrace
+Command: synth_design -top Top -part xc7k325tffg676-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7k325t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3684 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 353.379 ; gain = 143.352
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Top' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Top.v:19]
+INFO: [Synth 8-638] synthesizing module 'Master_Clock_Divider' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider.v:72]
+INFO: [Synth 8-638] synthesizing module 'Master_Clock_Divider_clk_wiz' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider_clk_wiz.v:70]
+INFO: [Synth 8-638] synthesizing module 'IBUFDS' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14161]
+INFO: [Synth 8-256] done synthesizing module 'IBUFDS' (1#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:14161]
+INFO: [Synth 8-638] synthesizing module 'MMCME2_ADV' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20414]
+INFO: [Synth 8-256] done synthesizing module 'MMCME2_ADV' (2#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20414]
+INFO: [Synth 8-638] synthesizing module 'BUFG' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'BUFG' (3#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:607]
+INFO: [Synth 8-256] done synthesizing module 'Master_Clock_Divider_clk_wiz' (4#1) [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider_clk_wiz.v:70]
+INFO: [Synth 8-256] done synthesizing module 'Master_Clock_Divider' (5#1) [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider.v:72]
+INFO: [Synth 8-638] synthesizing module 'ITMR_Processor' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/ITMR_Processor.v:22]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "TRUE" *) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/ITMR_Processor.v:50]
+INFO: [Synth 8-5534] Detected attribute (* DONT_TOUCH = "TRUE" *) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/ITMR_Processor.v:51]
+INFO: [Synth 8-638] synthesizing module 'Processor' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Processor.v:21]
+INFO: [Synth 8-638] synthesizing module 'Control' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Control.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Control' (6#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Control.v:21]
+INFO: [Synth 8-638] synthesizing module 'Hazard_Detection' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Hazard_Detection.v:25]
+INFO: [Synth 8-256] done synthesizing module 'Hazard_Detection' (7#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Hazard_Detection.v:25]
+INFO: [Synth 8-638] synthesizing module 'CPZero' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/CPZero.v:23]
+INFO: [Synth 8-256] done synthesizing module 'CPZero' (8#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/CPZero.v:23]
+INFO: [Synth 8-638] synthesizing module 'Mux4' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Mux4.v:17]
+INFO: [Synth 8-256] done synthesizing module 'Mux4' (9#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Mux4.v:17]
+INFO: [Synth 8-638] synthesizing module 'Mux2' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Mux2.v:17]
+INFO: [Synth 8-256] done synthesizing module 'Mux2' (10#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Mux2.v:17]
+INFO: [Synth 8-638] synthesizing module 'Register' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Register.v:18]
+INFO: [Synth 8-256] done synthesizing module 'Register' (11#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Register.v:18]
+INFO: [Synth 8-638] synthesizing module 'Add' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Add.v:17]
+INFO: [Synth 8-256] done synthesizing module 'Add' (12#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Add.v:17]
+INFO: [Synth 8-638] synthesizing module 'IFID_Stage' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/IFID_Stage.v:19]
+INFO: [Synth 8-256] done synthesizing module 'IFID_Stage' (13#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/IFID_Stage.v:19]
+INFO: [Synth 8-638] synthesizing module 'RegisterFile' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/RegisterFile.v:19]
+INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (14#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/RegisterFile.v:19]
+INFO: [Synth 8-638] synthesizing module 'Compare' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Compare.v:22]
+INFO: [Synth 8-256] done synthesizing module 'Compare' (15#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Compare.v:22]
+INFO: [Synth 8-638] synthesizing module 'IDEX_Stage' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/IDEX_Stage.v:19]
+INFO: [Synth 8-256] done synthesizing module 'IDEX_Stage' (16#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/IDEX_Stage.v:19]
+INFO: [Synth 8-638] synthesizing module 'Mux4__parameterized0' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Mux4.v:17]
+INFO: [Synth 8-256] done synthesizing module 'Mux4__parameterized0' (16#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Mux4.v:17]
+INFO: [Synth 8-638] synthesizing module 'ALU' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/ALU.v:21]
+INFO: [Synth 8-638] synthesizing module 'Signed_Mult' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Signed_Mult/synth/Signed_Mult.vhd:67]
+WARNING: [Synth 8-5640] Port 'zero_detect' is missing in component declaration [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Signed_Mult/synth/Signed_Mult.vhd:70]
+WARNING: [Synth 8-5640] Port 'pcasc' is missing in component declaration [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Signed_Mult/synth/Signed_Mult.vhd:70]
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_12' declared at 'c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Signed_Mult/hdl/mult_gen_v12_0_vh_rfs.vhd:21013' bound to instance 'U0' of component 'mult_gen_v12_0_12' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Signed_Mult/synth/Signed_Mult.vhd:113]
+INFO: [Synth 8-256] done synthesizing module 'Signed_Mult' (22#1) [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Signed_Mult/synth/Signed_Mult.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'Unsigned_Mult' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Unsigned_Mult/synth/Unsigned_Mult.vhd:67]
+WARNING: [Synth 8-5640] Port 'zero_detect' is missing in component declaration [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Unsigned_Mult/synth/Unsigned_Mult.vhd:70]
+WARNING: [Synth 8-5640] Port 'pcasc' is missing in component declaration [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Unsigned_Mult/synth/Unsigned_Mult.vhd:70]
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_12' declared at 'c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Signed_Mult/hdl/mult_gen_v12_0_vh_rfs.vhd:21013' bound to instance 'U0' of component 'mult_gen_v12_0_12' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Unsigned_Mult/synth/Unsigned_Mult.vhd:113]
+INFO: [Synth 8-256] done synthesizing module 'Unsigned_Mult' (23#1) [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Unsigned_Mult/synth/Unsigned_Mult.vhd:67]
+INFO: [Synth 8-226] default block is never used [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/ALU.v:217]
+INFO: [Synth 8-226] default block is never used [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/ALU.v:257]
+INFO: [Synth 8-638] synthesizing module 'Divide' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Divide.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Divide' (24#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Divide.v:21]
+INFO: [Synth 8-256] done synthesizing module 'ALU' (25#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/ALU.v:21]
+INFO: [Synth 8-638] synthesizing module 'EXMEM_Stage' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/EXMEM_Stage.v:18]
+INFO: [Synth 8-256] done synthesizing module 'EXMEM_Stage' (26#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/EXMEM_Stage.v:18]
+INFO: [Synth 8-638] synthesizing module 'TrapDetect' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/TrapDetect.v:17]
+INFO: [Synth 8-256] done synthesizing module 'TrapDetect' (27#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/TrapDetect.v:17]
+INFO: [Synth 8-638] synthesizing module 'MemControl' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/MemControl.v:25]
+WARNING: [Synth 8-3848] Net vote_RW_Mask in module/entity MemControl does not have driver. [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/MemControl.v:58]
+INFO: [Synth 8-256] done synthesizing module 'MemControl' (28#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/MemControl.v:25]
+INFO: [Synth 8-638] synthesizing module 'MEMWB_Stage' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/MEMWB_Stage.v:18]
+INFO: [Synth 8-256] done synthesizing module 'MEMWB_Stage' (29#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/MEMWB_Stage.v:18]
+INFO: [Synth 8-256] done synthesizing module 'Processor' (30#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/Processor.v:21]
+INFO: [Synth 8-638] synthesizing module 'Processor_Voter' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Processor_Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized0' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized0' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized1' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized1' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized2' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized2' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized3' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized3' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized4' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized4' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized5' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized5' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized6' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized6' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized7' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized7' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized8' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized8' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized9' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized9' (31#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Processor_Voter' (32#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Processor_Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Output_Voter' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Output_Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized10' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized10' (32#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized11' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized11' (32#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized12' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized12' (32#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized13' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized13' (32#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized14' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized14' (32#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Voter__parameterized15' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Voter__parameterized15' (32#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Output_Voter' (33#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Voters/Output_Voter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'ITMR_Processor' (34#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/MIPS32/ITMR_Processor.v:22]
+INFO: [Synth 8-638] synthesizing module 'System_Memory' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/System_Memory.v:21]
+INFO: [Synth 8-638] synthesizing module 'Level_1_Cache' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Level_1_Cache.v:21]
+INFO: [Synth 8-638] synthesizing module 'Cache_Control' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Cache_Control.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Cache_Control' (35#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Cache_Control.v:21]
+INFO: [Synth 8-638] synthesizing module 'Data_Ram' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Data_Ram.v:21]
+INFO: [Synth 8-638] synthesizing module 'Distributed_RAM' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Distributed_RAM.v:21]
+INFO: [Synth 8-5534] Detected attribute (* ram_style = "distributed" *) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Distributed_RAM.v:40]
+INFO: [Synth 8-256] done synthesizing module 'Distributed_RAM' (36#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Distributed_RAM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Data_Ram' (37#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Data_Ram.v:21]
+INFO: [Synth 8-638] synthesizing module 'Dirty_Ram' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Dirty_Ram.v:21]
+INFO: [Synth 8-638] synthesizing module 'Distributed_RAM__parameterized0' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Distributed_RAM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Distributed_RAM__parameterized0' (37#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Distributed_RAM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Dirty_Ram' (38#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Dirty_Ram.v:21]
+INFO: [Synth 8-638] synthesizing module 'Tag_Ram' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Tag_Ram.v:21]
+INFO: [Synth 8-638] synthesizing module 'Distributed_RAM__parameterized1' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Distributed_RAM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Distributed_RAM__parameterized1' (38#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Distributed_RAM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Tag_Ram' (39#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Tag_Ram.v:21]
+INFO: [Synth 8-638] synthesizing module 'Valid_Ram' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Valid_Ram.v:21]
+INFO: [Synth 8-638] synthesizing module 'Distributed_RAM__parameterized2' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Distributed_RAM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Distributed_RAM__parameterized2' (39#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Distributed_RAM.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Valid_Ram' (40#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Valid_Ram.v:21]
+INFO: [Synth 8-638] synthesizing module 'Hit_Detection' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Hit_Detection.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Hit_Detection' (41#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Hit_Detection.v:21]
+INFO: [Synth 8-638] synthesizing module 'Counter' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/Common/Counter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Counter' (42#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/Common/Counter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Level_1_Cache' (43#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Level_1_Cache.v:21]
+INFO: [Synth 8-638] synthesizing module 'Bus_Arbiter' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/Bus_Arbiter/Bus_Arbiter.v:23]
+INFO: [Synth 8-4471] merging register 'Data_Data_out_reg[4095:0]' into 'Inst_Data_out_reg[4095:0]' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/Bus_Arbiter/Bus_Arbiter.v:79]
+INFO: [Synth 8-256] done synthesizing module 'Bus_Arbiter' (44#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/Bus_Arbiter/Bus_Arbiter.v:23]
+INFO: [Synth 8-638] synthesizing module 'SD_Module_Interface' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Module_Interface.v:23]
+INFO: [Synth 8-638] synthesizing module 'SD_Control' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Control.v:23]
+INFO: [Synth 8-638] synthesizing module 'Counter__parameterized0' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/Common/Counter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Counter__parameterized0' (44#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/Common/Counter.v:21]
+INFO: [Synth 8-638] synthesizing module 'Counter__parameterized1' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/Common/Counter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'Counter__parameterized1' (44#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/Common/Counter.v:21]
+INFO: [Synth 8-256] done synthesizing module 'SD_Control' (45#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Control.v:23]
+INFO: [Synth 8-638] synthesizing module 'SD_Card_Interface' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Card_Interface.v:23]
+INFO: [Synth 8-638] synthesizing module 'SD_Clock_Gen' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Clock_Gen.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SD_Clock_Gen' (46#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Clock_Gen.v:23]
+INFO: [Synth 8-638] synthesizing module 'SD_Out_FIFO_Wrapper' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Out_FIFO_Wrapper.v:23]
+INFO: [Synth 8-638] synthesizing module 'SD_Out_FIFO' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/SD_Out_FIFO/synth/SD_Out_FIFO.vhd:72]
+INFO: [Synth 8-3491] module 'fifo_generator_v13_1_2' declared at 'c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/SD_Out_FIFO/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd:38270' bound to instance 'U0' of component 'fifo_generator_v13_1_2' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/SD_Out_FIFO/synth/SD_Out_FIFO.vhd:538]
+INFO: [Synth 8-256] done synthesizing module 'SD_Out_FIFO' (71#1) [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/SD_Out_FIFO/synth/SD_Out_FIFO.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'SD_Out_FIFO_Wrapper' (72#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Out_FIFO_Wrapper.v:23]
+INFO: [Synth 8-638] synthesizing module 'SD_In_ShiftRegister' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_In_ShiftRegister.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SD_In_ShiftRegister' (73#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_In_ShiftRegister.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SD_Card_Interface' (74#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Card_Interface.v:23]
+INFO: [Synth 8-256] done synthesizing module 'SD_Module_Interface' (75#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/SD/SD_Module_Interface.v:23]
+INFO: [Synth 8-256] done synthesizing module 'System_Memory' (76#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/System_Memory.v:21]
+INFO: [Synth 8-638] synthesizing module 'NPSAT1_ARM_CFTP_Interface' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/PC-104_Interface/NPSAT1_ARM_CFTP_Interface.v:28]
+INFO: [Synth 8-638] synthesizing module 'ARM_FIFO_in' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/synth/ARM_FIFO_in.vhd:76]
+INFO: [Synth 8-3491] module 'fifo_generator_v13_1_2' declared at 'c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/SD_Out_FIFO/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd:38270' bound to instance 'U0' of component 'fifo_generator_v13_1_2' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/synth/ARM_FIFO_in.vhd:543]
+INFO: [Synth 8-256] done synthesizing module 'ARM_FIFO_in' (82#1) [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/synth/ARM_FIFO_in.vhd:76]
+WARNING: [Synth 8-350] instance 'INCOMING' of module 'ARM_FIFO_in' requires 12 connections, but only 10 given [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/PC-104_Interface/NPSAT1_ARM_CFTP_Interface.v:77]
+INFO: [Synth 8-638] synthesizing module 'ARM_FIFO_out' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/synth/ARM_FIFO_out.vhd:76]
+INFO: [Synth 8-3491] module 'fifo_generator_v13_1_2' declared at 'c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/SD_Out_FIFO/hdl/fifo_generator_v13_1_vhsyn_rfs.vhd:38270' bound to instance 'U0' of component 'fifo_generator_v13_1_2' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/synth/ARM_FIFO_out.vhd:543]
+INFO: [Synth 8-256] done synthesizing module 'ARM_FIFO_out' (83#1) [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/synth/ARM_FIFO_out.vhd:76]
+WARNING: [Synth 8-350] instance 'OUTGOING' of module 'ARM_FIFO_out' requires 12 connections, but only 10 given [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/PC-104_Interface/NPSAT1_ARM_CFTP_Interface.v:90]
+INFO: [Synth 8-226] default block is never used [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/PC-104_Interface/NPSAT1_ARM_CFTP_Interface.v:141]
+WARNING: [Synth 8-3848] Net ARM_IRQ_out in module/entity NPSAT1_ARM_CFTP_Interface does not have driver. [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/PC-104_Interface/NPSAT1_ARM_CFTP_Interface.v:36]
+INFO: [Synth 8-256] done synthesizing module 'NPSAT1_ARM_CFTP_Interface' (84#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/PC-104_Interface/NPSAT1_ARM_CFTP_Interface.v:28]
+INFO: [Synth 8-638] synthesizing module 'Configuration_Scrubber' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Scrubber/Configuration_Scrubber.v:23]
+INFO: [Synth 8-638] synthesizing module 'sem_0' [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/sem_0/synth/sem_0.v:58]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:41477]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E1' (85#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:41477]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E1__parameterized0' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:41477]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E1__parameterized0' (86#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:41477]
+INFO: [Synth 8-638] synthesizing module 'FDP' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3891]
+INFO: [Synth 8-256] done synthesizing module 'FDP' (88#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3891]
+INFO: [Synth 8-638] synthesizing module 'INV' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:17255]
+INFO: [Synth 8-256] done synthesizing module 'INV' (90#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:17255]
+INFO: [Synth 8-638] synthesizing module 'FDR' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3951]
+INFO: [Synth 8-256] done synthesizing module 'FDR' (91#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3951]
+INFO: [Synth 8-638] synthesizing module 'LUT4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4' (92#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'FD' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3723]
+INFO: [Synth 8-256] done synthesizing module 'FD' (93#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3723]
+INFO: [Synth 8-638] synthesizing module 'FDE' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3865]
+INFO: [Synth 8-256] done synthesizing module 'FDE' (94#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3865]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized0' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized0' (94#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3' (95#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'FDRE' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-256] done synthesizing module 'FDRE' (96#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:3964]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized1' (96#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized2' (96#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized0' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized0' (96#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized3' (96#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized4' (96#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2' (97#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized5' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized5' (97#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized0' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized0' (97#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized6' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized6' (97#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized7' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized7' (97#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'MUXCY' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:21268]
+INFO: [Synth 8-256] done synthesizing module 'MUXCY' (98#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:21268]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized1' (98#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'XORCY' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:45340]
+INFO: [Synth 8-256] done synthesizing module 'XORCY' (99#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:45340]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized8' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized8' (99#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized9' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized9' (99#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized10' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized10' (99#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized2' (99#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized1' (99#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized2' (99#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized3' (99#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized4' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized4' (99#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'FDRSE' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4016]
+INFO: [Synth 8-256] done synthesizing module 'FDRSE' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4016]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized5' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized5' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized6' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized6' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized7' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized7' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized8' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized8' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized9' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized9' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized10' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized10' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized11' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized11' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized12' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized12' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized13' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized13' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized14' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized14' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized15' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized15' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized16' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized16' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized17' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized17' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized18' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized18' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized19' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized19' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized20' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized20' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized21' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized21' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized22' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized22' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized11' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized11' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT2__parameterized3' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-256] done synthesizing module 'LUT2__parameterized3' (100#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20168]
+INFO: [Synth 8-638] synthesizing module 'RAM16X1D' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:36553]
+INFO: [Synth 8-256] done synthesizing module 'RAM16X1D' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:36553]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized23' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized23' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized24' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized24' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized25' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized25' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized26' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized26' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized27' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized27' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized28' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized28' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized29' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized29' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized30' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized30' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized12' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized12' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized13' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized13' (101#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'RAM64X1S' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37233]
+INFO: [Synth 8-256] done synthesizing module 'RAM64X1S' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:37233]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized14' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized14' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized15' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized15' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized16' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized16' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized17' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized17' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized18' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized18' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized19' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized19' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized20' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized20' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized21' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized21' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized22' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized22' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized31' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized31' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized32' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized32' (102#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'MUXF5' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:21305]
+INFO: [Synth 8-256] done synthesizing module 'MUXF5' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:21305]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized33' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized33' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized34' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized34' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized35' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized35' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized36' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized36' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized37' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized37' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized38' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized38' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized39' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized39' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized40' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized40' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized41' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized41' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized42' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized42' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized43' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized43' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized44' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized44' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized45' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized45' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized46' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized46' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized47' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized47' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized48' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized48' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized49' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized49' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized50' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized50' (103#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20134]
+INFO: [Synth 8-256] done synthesizing module 'LUT1' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20134]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized51' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized51' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized23' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized23' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized52' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized52' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized53' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized53' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized54' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized54' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized55' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized55' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized56' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized56' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized57' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized57' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized58' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized58' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized59' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized59' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized60' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized60' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized61' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized61' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized62' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized62' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized63' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized63' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized64' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized64' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized65' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized65' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized66' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized66' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT3__parameterized67' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-256] done synthesizing module 'LUT3__parameterized67' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20205]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized24' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized24' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized25' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized25' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized26' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized26' (104#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'RAM32X1S' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:36918]
+INFO: [Synth 8-256] done synthesizing module 'RAM32X1S' (105#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:36918]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized27' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized27' (105#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized28' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized28' (105#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized29' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized29' (105#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized30' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized30' (105#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'LUT4__parameterized31' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-256] done synthesizing module 'LUT4__parameterized31' (105#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:20245]
+INFO: [Synth 8-638] synthesizing module 'RAMB18E1__parameterized1' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:41477]
+INFO: [Synth 8-256] done synthesizing module 'RAMB18E1__parameterized1' (106#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:41477]
+INFO: [Synth 8-256] done synthesizing module 'sem_0' (111#1) [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/sem_0/synth/sem_0.v:58]
+WARNING: [Synth 8-350] instance 'SEM' of module 'sem_0' requires 29 connections, but only 18 given [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Scrubber/Configuration_Scrubber.v:51]
+INFO: [Synth 8-638] synthesizing module 'FRAME_ECCE2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4730]
+INFO: [Synth 8-256] done synthesizing module 'FRAME_ECCE2' (112#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:4730]
+INFO: [Synth 8-638] synthesizing module 'ICAPE2' [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15923]
+INFO: [Synth 8-256] done synthesizing module 'ICAPE2' (113#1) [C:/Xilinx/Vivado/2016.3/scripts/rt/data/unisim_comp.v:15923]
+INFO: [Synth 8-256] done synthesizing module 'Configuration_Scrubber' (114#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Scrubber/Configuration_Scrubber.v:23]
+WARNING: [Synth 8-3848] Net Flush in module/entity Top does not have driver. [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Top.v:88]
+WARNING: [Synth 8-3848] Net UART_BootResetCPU in module/entity Top does not have driver. [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Top.v:130]
+INFO: [Synth 8-256] done synthesizing module 'Top' (115#1) [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Top.v:19]
+WARNING: [Synth 8-3917] design Top has port SD_PWRn driven by constant 0
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port icap_clk
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port sync_init
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_window
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[31]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[30]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[29]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[28]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[27]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[26]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[25]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[24]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[23]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[22]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[21]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[20]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[19]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[18]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[17]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[16]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[15]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[14]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[13]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[12]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[11]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[10]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[9]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[8]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[7]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[6]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[5]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[4]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[3]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[2]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[1]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port data_values[0]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port port_id[1]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port port_id[0]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port cselect
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port write_strobe
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port read_strobe
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port out_port[7]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port out_port[6]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port out_port[5]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port out_port[4]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port out_port[3]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port out_port[2]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port out_port[1]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_cbuffer has unconnected port out_port[0]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_txfull
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_rxdata[7]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_rxdata[6]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_rxdata[5]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_rxdata[4]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_rxdata[3]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_rxdata[2]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_rxdata[1]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_rxdata[0]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_rxempty
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[31]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[30]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[29]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[28]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[27]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[26]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[25]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[24]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[23]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[22]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[21]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[20]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[19]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[18]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[17]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[16]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[15]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[14]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[13]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[12]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[11]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[10]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[9]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[8]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[7]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[6]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[5]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[4]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[3]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[2]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[1]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port fetch_tbladdr[0]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_strobe
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_address[39]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_address[38]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_address[37]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_address[36]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_address[35]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_address[34]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_address[33]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_address[32]
+WARNING: [Synth 8-3331] design sem_v4_1_7_x7_sem_controller has unconnected port inject_address[31]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:01:46 ; elapsed = 00:01:52 . Memory (MB): peak = 777.363 ; gain = 567.336
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+WARNING: [Synth 8-3295] tying undriven pin Memory:flush to constant 0 [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Top.v:146]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:01:49 ; elapsed = 00:01:55 . Memory (MB): peak = 777.363 ; gain = 567.336
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 287 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Device 21-403] Loading part xc7k325tffg676-2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/SD_Out_FIFO/SD_Out_FIFO/SD_Out_FIFO.xdc] for cell 'Memory/SD/Interface/Outgoing/Outgoing/U0'
+Finished Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/SD_Out_FIFO/SD_Out_FIFO/SD_Out_FIFO.xdc] for cell 'Memory/SD/Interface/Outgoing/Outgoing/U0'
+Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/ARM_FIFO_in/ARM_FIFO_in.xdc] for cell 'PC104/INCOMING/U0'
+Finished Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/ARM_FIFO_in/ARM_FIFO_in.xdc] for cell 'PC104/INCOMING/U0'
+Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/ARM_FIFO_out/ARM_FIFO_out.xdc] for cell 'PC104/OUTGOING/U0'
+Finished Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/ARM_FIFO_out/ARM_FIFO_out.xdc] for cell 'PC104/OUTGOING/U0'
+Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider_board.xdc] for cell 'Clock_Generator/inst'
+Finished Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider_board.xdc] for cell 'Clock_Generator/inst'
+Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider.xdc] for cell 'Clock_Generator/inst'
+Finished Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider.xdc] for cell 'Clock_Generator/inst'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/Master_Clock_Divider/Master_Clock_Divider.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/constrs_1/imports/Desktop/Sources-On_Sat/mercury_kx1_top.xdc]
+Finished Parsing XDC File [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/constrs_1/imports/Desktop/Sources-On_Sat/mercury_kx1_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/constrs_1/imports/Desktop/Sources-On_Sat/mercury_kx1_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/constrs_1/imports/Desktop/Sources/Constraints/timing.xdc]
+Finished Parsing XDC File [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/constrs_1/imports/Desktop/Sources/Constraints/timing.xdc]
+Parsing XDC File [C:/Users/Chance/CFTP_Sat/CFTP_Sat.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/Chance/CFTP_Sat/CFTP_Sat.runs/synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Chance/CFTP_Sat/CFTP_Sat.runs/synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/ARM_FIFO_in/ARM_FIFO_in_clocks.xdc] for cell 'PC104/INCOMING/U0'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports ARM_BCLK_in]'. [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/ARM_FIFO_in/ARM_FIFO_in_clocks.xdc:53]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/ARM_FIFO_in/ARM_FIFO_in_clocks.xdc:53]
+can't read "wr_clk_period": no such variable
+can't read "skew_value": no such variable
+can't read "skew_value": no such variable
+Finished Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/ARM_FIFO_in/ARM_FIFO_in_clocks.xdc] for cell 'PC104/INCOMING/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_in/ARM_FIFO_in/ARM_FIFO_in_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/ARM_FIFO_out/ARM_FIFO_out_clocks.xdc] for cell 'PC104/OUTGOING/U0'
+WARNING: [Vivado 12-1008] No clocks found for command 'get_clocks -of_objects [get_ports ARM_BCLK_in]'. [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/ARM_FIFO_out/ARM_FIFO_out_clocks.xdc:54]
+Resolution: Verify the create_clock command was called to create the clock object before it is referenced.
+INFO: [Vivado 12-626] No clocks found. Please use 'create_clock' or 'create_generated_clock' command to create clocks. [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/ARM_FIFO_out/ARM_FIFO_out_clocks.xdc:54]
+Finished Parsing XDC File [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/ARM_FIFO_out/ARM_FIFO_out_clocks.xdc] for cell 'PC104/OUTGOING/U0'
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [c:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/ip/ARM_FIFO_out/ARM_FIFO_out/ARM_FIFO_out_clocks.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 111 instances were transformed.
+  FD => FDRE: 24 instances
+  FDE => FDRE: 2 instances
+  FDP => FDPE: 5 instances
+  FDR => FDRE: 30 instances
+  FDRSE => FDRSE (FDRE, LUT4, VCC): 10 instances
+  INV => LUT1: 5 instances
+  MUXF5 => LUT3: 9 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 8 instances
+  RAM32X1S => RAM32X1S (RAMS32): 10 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 8 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.047 . Memory (MB): peak = 1054.461 ; gain = 0.008
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:02:10 ; elapsed = 00:02:15 . Memory (MB): peak = 1055.234 ; gain = 845.207
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5580] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7k325tffg676-2
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+        STATE_CACHE_INIT |                        000000001 |                             0000
+        STATE_CACHE_IDLE |                        000000010 |                             0001
+   STATE_CACHE_WRITEBACK |                        000001000 |                             0101
+STATE_CACHE_WRITEBACK_ACK |                        010000000 |                             0110
+       STATE_CACHE_FLUSH |                        000000100 |                             1000
+   STATE_CACHE_FLUSH_ACK |                        100000000 |                             1010
+    STATE_CACHE_ALLOCATE |                        000010000 |                             0011
+STATE_CACHE_ALLOCATE_ACK |                        001000000 |                             0100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'CurrentState_reg' using encoding 'one-hot' in module 'Cache_Control'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+          ARM_STATE_IDLE |                              000 |                              000
+         ARM_STATE_WRITE |                              001 |                              100
+    ARM_STATE_WRITE_WAIT |                              010 |                              101
+           ARM_STATE_HIZ |                              011 |                              011
+          ARM_STATE_READ |                              100 |                              001
+     ARM_STATE_READ_WAIT |                              101 |                              010
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'ARM_CurrentState_reg' using encoding 'sequential' in module 'NPSAT1_ARM_CFTP_Interface'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:02:22 ; elapsed = 00:02:27 . Memory (MB): peak = 1055.234 ; gain = 845.207
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------------------+------------+----------+
+|      |RTL Partition                     |Replication |Instances |
++------+----------------------------------+------------+----------+
+|1     |Master_Clock_Divider_clk_wiz__GC0 |           1|         5|
+|2     |ITMR_Processor__GB0               |           1|     38392|
+|3     |ITMR_Processor__GB1               |           1|     16536|
+|4     |ITMR_Processor__GB2               |           1|     16144|
+|5     |System_Memory__GB0                |           1|     40045|
+|6     |System_Memory__GB1                |           1|     38249|
+|7     |Top__GC0                          |           1|      3854|
++------+----------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 840 (col length:140)
+BRAMs: 890 (col length: RAMB18 140 RAMB36 70)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "Config_Scrub/HEARTBEAT_out0" won't be mapped to RAM because it is too sparse
+WARNING: [Synth 8-3917] design Top has port SD_PWRn driven by constant 0
+INFO: [Synth 8-3332] Sequential element (gnxpm_cdc.wr_pntr_bin_reg[0]) is unused and will be removed from module clk_x_pntrs.
+INFO: [Synth 8-3332] Sequential element (gnxpm_cdc.rd_pntr_bin_reg[0]) is unused and will be removed from module clk_x_pntrs__parameterized0.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\Config_Scrub/SEM /inst/\controller_kcpsm3/int_capture_flop )
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[32]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[24]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[16]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[8]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[0]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/fset_reg_reg[0]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/fset_reg_reg[1]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[33]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[25]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[17]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[9]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[1]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[1]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/fset_reg_reg[2]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[34]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[26]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[18]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[10]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[2]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[2]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\Config_Scrub/SEM /inst/errinj_ego_reg)
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/fset_reg_reg[3]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[35]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[27]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[19]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[11]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[3]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[4]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\Config_Scrub/SEM /inst/cbeecc_err_reg)
+INFO: [Synth 8-3333] propagating constant 1 across sequential element (i_5/\Config_Scrub/SEM /inst/\fset_reg_reg[4] )
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[36]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[28]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[20]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[12]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[4]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/fset_reg_reg[5]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[5]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\Config_Scrub/SEM /inst/aux_cr_ne_err_reg)
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[37]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[29]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[21]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[13]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[5]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[6]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\Config_Scrub/SEM /inst/aux_cr_es_err_reg)
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[38]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[30]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[22]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[14]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[6]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\Config_Scrub/SEM /inst/aux_uc_err_reg)
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[39]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[31]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[23]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[15]' (FDRE) to 'i_5/Config_Scrub/SEM/inst/errinj_reg_reg[7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (i_5/\Config_Scrub/SEM /inst/\errinj_reg_reg[7] )
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/pid_reg_reg[0]' (FDR) to 'i_5/Config_Scrub/SEM/inst/controller_dbuffer/port_id_reg_reg[0]'
+INFO: [Synth 8-3886] merging instance 'i_5/Config_Scrub/SEM/inst/pid_reg_reg[1]' (FDR) to 'i_5/Config_Scrub/SEM/inst/controller_dbuffer/port_id_reg_reg[1]'
+WARNING: [Synth 8-3332] Sequential element (controller_kcpsm3/int_capture_flop) is unused and will be removed from module sem_v4_1_7_x7_sem_controller.
+WARNING: [Synth 8-3332] Sequential element (fset_reg_reg[4]) is unused and will be removed from module sem_v4_1_7_x7_sem_controller.
+WARNING: [Synth 8-3332] Sequential element (errinj_ego_reg) is unused and will be removed from module sem_v4_1_7_x7_sem_controller.
+WARNING: [Synth 8-3332] Sequential element (cbeecc_err_reg) is unused and will be removed from module sem_v4_1_7_x7_sem_controller.
+WARNING: [Synth 8-3332] Sequential element (aux_cr_ne_err_reg) is unused and will be removed from module sem_v4_1_7_x7_sem_controller.
+WARNING: [Synth 8-3332] Sequential element (aux_cr_es_err_reg) is unused and will be removed from module sem_v4_1_7_x7_sem_controller.
+WARNING: [Synth 8-3332] Sequential element (aux_uc_err_reg) is unused and will be removed from module sem_v4_1_7_x7_sem_controller.
+WARNING: [Synth 8-3332] Sequential element (errinj_reg_reg[7]) is unused and will be removed from module sem_v4_1_7_x7_sem_controller.
+INFO: [Synth 8-5546] ROM "Datapath" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Datapath" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ALUOp" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5544] ROM "Reg_Out0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Datapath" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Datapath" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ALUOp" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5544] ROM "Reg_Out0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "Datapath" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Datapath" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5587] ROM size for "ALUOp" is below threshold of ROM address width. It will be mapped to LUTs
+INFO: [Synth 8-5544] ROM "Reg_Out0" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-4471] merging register 'ICache/VALID_RAM/Init_Valid_out_reg' into 'ICache/DIRTY_RAM/Init_Dirty_out_reg' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Valid_Ram.v:34]
+INFO: [Synth 8-4471] merging register 'DCache/VALID_RAM/Init_Valid_out_reg' into 'DCache/DIRTY_RAM/Init_Dirty_out_reg' [C:/Users/Chance/CFTP_Sat/CFTP_Sat.srcs/sources_1/imports/Sources-On_Sat/Cache/L1/Valid_Ram.v:34]
+INFO: [Synth 8-5546] ROM "ICache/DIRTY_RAM/Init_Dirty_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DCache/DIRTY_RAM/Init_Dirty_out" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[4] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[27] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (BUS/\SD_Address_in_reg[29] )
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[29]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[28]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[27]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[26]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[6]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[5]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[4]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[3]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[2]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[1]) is unused and will be removed from module Bus_Arbiter.
+WARNING: [Synth 8-3332] Sequential element (SD_Address_in_reg[0]) is unused and will be removed from module Bus_Arbiter.
+INFO: [Synth 8-5544] ROM "SD_Data_out" won't be mapped to Block RAM because address size (3) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "NextState0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "NextState0" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "SD/Interface/ClockGen/clock400k0" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (inst_fifo_gen/gconvfifo.rf/grf.rf/gntv_or_sync_fifo.gl0.rd/grss.rsts/gae.ram_aempty_i_reg) is unused and will be removed from module fifo_generator_v13_1_2.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:03:34 ; elapsed = 00:04:16 . Memory (MB): peak = 1131.289 ; gain = 921.262
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------------------+------------+----------+
+|      |RTL Partition                     |Replication |Instances |
++------+----------------------------------+------------+----------+
+|1     |Master_Clock_Divider_clk_wiz__GC0 |           1|         5|
+|2     |ITMR_Processor__GB0               |           1|     40392|
+|3     |ITMR_Processor__GB1               |           1|     18533|
+|4     |ITMR_Processor__GB2               |           1|     18141|
+|5     |System_Memory__GB0                |           1|     56313|
+|6     |System_Memory__GB1                |           1|     23872|
+|7     |Top__GC0                          |           1|      3135|
++------+----------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:03:47 ; elapsed = 00:04:28 . Memory (MB): peak = 1303.250 ; gain = 1093.223
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:07:09 ; elapsed = 00:07:53 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+----------------------------------+------------+----------+
+|      |RTL Partition                     |Replication |Instances |
++------+----------------------------------+------------+----------+
+|1     |Master_Clock_Divider_clk_wiz__GC0 |           1|         5|
+|2     |System_Memory__GB0                |           1|     55053|
+|3     |System_Memory__GB1                |           1|     23860|
+|4     |logic__2982__GD                   |           1|         1|
+|5     |Top_GT6                           |           1|      1475|
+|6     |Top_GT7                           |           1|         2|
+|7     |Top_GT1                           |           1|       811|
+|8     |ARM_FIFO_in                       |           1|       716|
+|9     |Top_GT0                           |           1|     77230|
++------+----------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:07:21 ; elapsed = 00:08:08 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+-------------------+------------+----------+
+|      |RTL Partition      |Replication |Instances |
++------+-------------------+------------+----------+
+|1     |System_Memory__GB0 |           1|     33284|
+|2     |System_Memory__GB1 |           1|      9077|
+|3     |Top_GT0            |           1|     27690|
++------+-------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5778] max_fanout handling on net reset is sub-optimal because some of its loads are not in same hierarchy as its driver   
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:07:31 ; elapsed = 00:08:18 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:07:31 ; elapsed = 00:08:19 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:07:47 ; elapsed = 00:08:35 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:07:55 ; elapsed = 00:08:42 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:08:06 ; elapsed = 00:08:53 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:08:06 ; elapsed = 00:08:54 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------+------+
+|      |Cell        |Count |
++------+------------+------+
+|1     |BUFG        |     6|
+|2     |CARRY4      |   329|
+|3     |DSP48E1     |    12|
+|4     |DSP48E1_1   |    12|
+|5     |FRAME_ECCE2 |     1|
+|6     |ICAPE2      |     1|
+|7     |INV         |     3|
+|8     |LUT1        |   553|
+|9     |LUT2        |   562|
+|10    |LUT3        | 16057|
+|11    |LUT4        |  1321|
+|12    |LUT5        | 12337|
+|13    |LUT6        | 10433|
+|14    |MMCME2_ADV  |     1|
+|15    |MUXCY       |   101|
+|16    |MUXF5       |     9|
+|17    |MUXF7       |  2584|
+|18    |MUXF8       |   796|
+|19    |RAM16X1D    |     8|
+|20    |RAM16X1S    |  8234|
+|21    |RAM32X1S    |    10|
+|22    |RAM64X1S    |     8|
+|23    |RAMB18E1    |     1|
+|24    |RAMB18E1_1  |     1|
+|25    |RAMB18E1_2  |     1|
+|26    |RAMB18E1_3  |     1|
+|27    |RAMB18E1_4  |     1|
+|28    |RAMB18E1_5  |     1|
+|29    |XORCY       |    37|
+|30    |FD          |    24|
+|31    |FDCE        |   401|
+|32    |FDE         |     2|
+|33    |FDP         |     5|
+|34    |FDPE        |    42|
+|35    |FDR         |    29|
+|36    |FDRE        | 18619|
+|37    |FDSE        |    51|
+|38    |IBUF        |    16|
+|39    |IBUFDS      |     1|
+|40    |IOBUF       |    16|
+|41    |OBUF        |     6|
+|42    |OBUFT       |     1|
++------+------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:08:06 ; elapsed = 00:08:54 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 1 critical warnings and 146 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:06:00 ; elapsed = 00:08:32 . Memory (MB): peak = 1921.086 ; gain = 1363.492
+Synthesis Optimization Complete : Time (s): cpu = 00:08:07 ; elapsed = 00:08:55 . Memory (MB): peak = 1921.086 ; gain = 1711.059
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 8863 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 3 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8387 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 39 instances
+  FD => FDRE: 24 instances
+  FDE => FDRE: 2 instances
+  FDP => FDPE: 5 instances
+  FDR => FDRE: 29 instances
+  INV => LUT1: 3 instances
+  IOBUF => IOBUF (IBUF, OBUFT): 16 instances
+  MUXF5 => LUT3: 9 instances
+  RAM16X1D => RAM32X1D (RAMD32, RAMD32): 8 instances
+  RAM16X1S => RAM32X1S (RAMS32): 8234 instances
+  RAM32X1S => RAM32X1S (RAMS32): 10 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+650 Infos, 136 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:08:28 ; elapsed = 00:09:14 . Memory (MB): peak = 1921.086 ; gain = 1658.508
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Chance/CFTP_Sat/CFTP_Sat.runs/synth_1/Top.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:18 ; elapsed = 00:00:12 . Memory (MB): peak = 1921.086 ; gain = 0.000
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.328 . Memory (MB): peak = 1921.086 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 27 20:02:56 2016...
